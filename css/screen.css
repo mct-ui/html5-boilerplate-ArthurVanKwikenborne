@@ -172,12 +172,12 @@ a:active {
   display: flow-root;
 }
 .o-row--dark {
-  background-color: hsl(198.0786026201, 100%, 30%);
+  background-color: hsl(198.0786026201, 10%, 20%);
   color: white;
   text-align: center;
 }
 .o-row--primary {
-  background-color: #1abaff;
+  background-color: hsl(198.0786026201, 95%, 65%);
   color: 198.0786026201deg;
 }
 
