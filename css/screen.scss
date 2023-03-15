@@ -320,6 +320,17 @@ a:active {
 */
 
 .o-row {
+  padding: $space-m $space-m 0;
+  display: flow-root;
+  &--dark{
+    background-color: $color-primary-dark;
+    color:white;
+    text-align: center;
+  }
+  &--primary {
+    background-color: $color-blue;
+    color:$color-blue-hue;
+  }
 }
 
 /*
@@ -329,6 +340,8 @@ a:active {
 */
 
 .o-container {
+  margin: 0 auto;
+  max-width: 50rem;
 }
 
 /*
